@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="USERTABLE" max_length="40" name="x_594690_talentdem_usertable" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="GENDER" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FEMALE" value="female"/>
+                <element inactive_on_update="false" label="MALE" value="male"/>
+            </choice>
+        </element>
+        <element label="MOB.NO" max_length="40" name="mob_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="NUMBER" max_length="40" name="number" reference="x_594690_talentdem_empty" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

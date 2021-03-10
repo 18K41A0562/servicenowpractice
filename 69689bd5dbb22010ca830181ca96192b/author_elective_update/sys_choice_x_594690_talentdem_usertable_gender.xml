@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gender" table="x_594690_talentdem_usertable" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <name>x_594690_talentdem_usertable</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-09 09:30:46</sys_created_on>
+            <sys_id>f2dcd799dbb22010ca830181ca961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gender</sys_name>
+            <sys_package display_value="TalentDemo" source="x_594690_talentdem">69689bd5dbb22010ca830181ca96192b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TalentDemo">69689bd5dbb22010ca830181ca96192b</sys_scope>
+            <sys_update_name>sys_choice_x_594690_talentdem_usertable_gender</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-09 09:30:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FEMALE</label>
+            <language>en</language>
+            <name>x_594690_talentdem_usertable</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-09 09:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6dcd799dbb22010ca830181ca961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-09 09:30:46</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MALE</label>
+            <language>en</language>
+            <name>x_594690_talentdem_usertable</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-09 09:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6dcd799dbb22010ca830181ca961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-09 09:30:46</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
